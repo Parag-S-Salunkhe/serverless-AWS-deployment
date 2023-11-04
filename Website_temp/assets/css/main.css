@@ -1848,7 +1848,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #c84aca;
 		}
 
 	select {
@@ -2724,7 +2724,7 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #e30000;
 		}
 
 			#header a:hover {
@@ -2789,7 +2789,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #c25ccf;
 					display: block;
 					padding: 0;
 				}
@@ -2800,7 +2800,7 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #f60101 !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
