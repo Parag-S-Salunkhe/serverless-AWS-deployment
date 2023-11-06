@@ -3491,3 +3491,25 @@ input, select, textarea {
   }
   
   
+
+
+
+/* Style the submit button */
+input[type="submit"] {
+	background: #b734be;
+	color: #fff;
+	padding: 10px 30px;
+	border: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: Arial, sans-serif;
+	transition: background-color 0.3s;
+	text-transform: uppercase; /* Uppercase text */
+  }
+  
+  /* Hover effect for the submit button */
+  input[type="submit"]:hover {
+	background: #f900e0;
+  }
+  
+  
