@@ -3418,7 +3418,7 @@ input, select, textarea {
 
 
   /* Style for all sections (including Section One) */
-  .section-one, .section-two, .section-three {
+  .section-one, .section-two, .section-three, .section-four {
 	background-color: #ffffff;
 	padding: 20px;
 	border-radius: 20px;
@@ -3429,14 +3429,25 @@ input, select, textarea {
   
   .section-one {
 	box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2); /* Right shadow */
+	box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
   
   .section-two {
 	box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.2); /* Left shadow */
+	box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
   
   .section-three {
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2); /* Bottom shadow */
+	box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .section-four {
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2); /* Bottom shadow */
+	box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.2);
   }
 
   
