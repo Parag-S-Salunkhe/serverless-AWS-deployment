@@ -3498,13 +3498,14 @@ input, select, textarea {
 input[type="submit"] {
 	background: #b734be;
 	color: #fff;
-	padding: 10px 30px;
-	border: 10px;
+	
+	border: none;
 	border-radius: 10px;
 	cursor: pointer;
 	font-family: Arial, sans-serif;
 	transition: background-color 0.3s;
 	text-transform: uppercase; /* Uppercase text */
+	margin-top: 10px;
   }
   
   /* Hover effect for the submit button */
