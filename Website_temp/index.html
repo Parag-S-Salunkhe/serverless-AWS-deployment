@@ -160,20 +160,18 @@
 
 									</ol>
 									
-									<form method="post" action="#">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" class="primary" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
+									<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mzblwjbd" method="POST">
+										<fieldset id="fs-frm-inputs">
+										  <label for="full-name">Full Name</label>
+										  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+										  <label for="email-address">Email Address</label>
+										  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+										  <label for="message">Message</label>
+										  <textarea rows="5" name="message" id="message" placeholder="Aenean " required=""></textarea>
+										  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+										</fieldset>
+										<input type="submit" value="Submit">
+									  </form>
 								</div>
 							</section>
 				
