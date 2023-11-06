@@ -3531,7 +3531,6 @@ input[type="submit"] {
 
 /*skills  columns and icons animations */
 
-
 .skill-list.multi-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -3546,7 +3545,7 @@ input[type="submit"] {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
 }
 
 .skill-list.multi-row .icon-container {
@@ -3560,6 +3559,7 @@ input[type="submit"] {
 .skill-list.multi-row li:hover {
     background-color: #4dd252;
     color: #fff;
+    transform: scale(1.05); /* Scale up the item on hover */
 }
 
 .skill-list.multi-row i {
@@ -3570,4 +3570,12 @@ input[type="submit"] {
     transform: rotate(360deg);
 }
 
+
+.skill-list.multi-row li:hover {
+    color: #000000; /* Change to your desired color */
+}
+
   
+
+
+
