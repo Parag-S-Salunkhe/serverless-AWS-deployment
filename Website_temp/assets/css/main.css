@@ -2061,7 +2061,7 @@ input, select, textarea {
 			-ms-object-fit: cover;
 			object-fit: cover;
 			display: block;
-			position: absolute;
+			
 			top: 0;
 			left: 0;
 			width: 100%;
@@ -2196,6 +2196,7 @@ input, select, textarea {
 				border-radius: 100%;
 				display: block;
 				width: 100%;
+				align-items: center;
 			}
 
 		.image.main {
@@ -2214,7 +2215,8 @@ input, select, textarea {
 				max-height: 100%;
 				width: auto;
 				height: auto;
-				margin-left: 15em;
+				align-items: center;
+				
 				
 			}
 			
@@ -3155,6 +3157,7 @@ input, select, textarea {
 
 			.image.main {
 				height: 12em;
+				align-items: center;
 			}
 
 		/* Section/Article */
