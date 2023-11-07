@@ -3564,7 +3564,7 @@ input[type="submit"] {
 }
 
 .skill-list.multi-row li:hover {
-	background: linear-gradient(135deg, #B0E0E6, #E0FFFF); /* Use your desired color values */
+	background: linear-gradient(135deg, #DDA0DD, #B57EDC);/* Use your desired color values */
     color: #fff;
     transform: scale(1.05); /* Scale up the item on hover */
 }
