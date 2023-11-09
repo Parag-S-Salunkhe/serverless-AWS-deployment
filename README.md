@@ -6,7 +6,9 @@
 ![Static Badge](https://img.shields.io/badge/Design-JavaScript%2C%20CSS%2C%20HTML-red?style=for-the-badge&logo=css3&logoColor=white&labelColor=orange&color=dark%20green)
 
 
-## Objective
+## Objective of Cloud Resume Challenge
+
+Blend creativity with cloud computing prowess to transform a mundane CV into a dynamic, cloud-hosted website. By conquering this challenge, you're not just flaunting your tech skills; you're unlocking doors to potential job opportunities. It's the ultimate flex for tech enthusiasts—showcasing your abilities in AWS, web development, and more.
 
 
 
