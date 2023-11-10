@@ -9,6 +9,17 @@
 ## Objective of Cloud Resume Challenge
 
 Blend creativity with cloud computing prowess to transform a mundane CV into a dynamic, cloud-hosted website. By conquering this challenge, you're not just flaunting your tech skills; you're unlocking doors to potential job opportunities. It's the ultimate flex for tech enthusiasts—showcasing your abilities in AWS, web development, and more.
+Through AWS hand-on you get to know how a serveless architecture deployment looks. 
+
+## AWS Services and its use for this project (high-level)
+
+### ![Static Badge](https://img.shields.io/badge/AWS%20S3-grey?style=for-the-badge&logo=Amazon%20s3&logoColor=green)  
+#### S3 bucket is used for storing the files like html, css and images (all static files) basically to host static website. To keep the bucket private and accessible we use the next AWS service, Cloudfront!
+
+###
+
+
+
 
 
 
