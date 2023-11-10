@@ -16,8 +16,10 @@ Through AWS hand-on you get to know how a serveless architecture deployment look
 ### ![Static Badge](https://img.shields.io/badge/AWS%20S3-grey?style=for-the-badge&logo=Amazon%20s3&logoColor=green)  
 #### S3 bucket is used for storing the files like html, css and images (all static files) basically to host static website. To keep the bucket private and accessible we use the next AWS service, Cloudfront!
 
-###
+![Static Badge](https://img.shields.io/badge/AWS%20CloudFront-grey?style=for-the-badge&logo=Amazon%20CloudFront&logoColor=purple)
+#### By setting OAI (Origin Access Control) it allows access to S3 bucket indix.html file (set root deffault object in cloudfront). It adds extra layer of security by authorizing access to private index.html in S3. It enhances performance by caching at the edge giving low latency while accessing the site which also saves network cost. 
 
+ 
 
 
 
