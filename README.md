@@ -19,6 +19,17 @@ Through AWS hand-on you get to know how a serveless architecture deployment look
 ![Static Badge](https://img.shields.io/badge/AWS%20CloudFront-grey?style=for-the-badge&logo=Amazon%20CloudFront&logoColor=purple)
 #### By setting OAI (Origin Access Control) it allows access to S3 bucket indix.html file (set root deffault object in cloudfront). It adds extra layer of security by authorizing access to private index.html in S3. It enhances performance by caching at the edge giving low latency while accessing the site which also saves network cost. 
 
+### ![Static Badge](https://img.shields.io/badge/AWS%20Route53-grey?style=for-the-badge&logo=amazonroute53&logoColor=white) & ![Static Badge](https://img.shields.io/badge/ACM(AWS%20Certificate%20Manager)-grey?style=for-the-badge&logoColor=white)
+
+#### Buy domain name from route53(or namecheap), request a SSL certificate from ACM. Custom domain name can be set in route53 and we make the record in route53 point towards cloudfront distribution. Deployment of website using custom DNS over HTTPS is done. 
+
+###
+
+
+
+
+
+
  
 
 
