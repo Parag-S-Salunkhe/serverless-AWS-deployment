@@ -23,7 +23,15 @@ Through AWS hand-on you get to know how a serveless architecture deployment look
 
 #### Buy domain name from route53(or namecheap), request a SSL certificate from ACM. Custom domain name can be set in route53 and we make the record in route53 point towards cloudfront distribution. Deployment of website using custom DNS over HTTPS is done. 
 
-###
+### ![Static Badge](https://img.shields.io/badge/AWS%20Lambda-grey?style=for-the-badge&logo=awslambda&logoColor=yellow) & ![Static Badge](https://img.shields.io/badge/AWS%20DynamoDB-grey?style=for-the-badge&logo=amazondynamodb&logoColor=violet)
+
+#### Create DynamoDB table with the attributes mentioned in the table(set value 1 for both). We don't want to fetch data directly from DynamoDB
+| Primary key                | Attributes |
+| -------------------------- | ---------- |
+| Partition key: CounterName | string     |
+| visitors                   | number     |
+
+
 
 
 
