@@ -31,6 +31,9 @@ Through AWS hand-on you get to know how a serveless architecture deployment look
 | Partition key: CounterName | string     |
 | visitors                   | number     |
 
+Write a lambda function to access table in dynamoDB and then to print the value of hit counter and addinng-storing the value of views in DynamoDB on a hit to website.
+
+Create a [javascript file](Website_temp/index.js) which will fetch request from lambda function and store in a variable we have created which is used to display hit counter on your website.
 
 
 
