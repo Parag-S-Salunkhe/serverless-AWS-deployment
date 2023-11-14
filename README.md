@@ -11,6 +11,10 @@
 Blend creativity with cloud computing prowess to transform a mundane CV into a dynamic, cloud-hosted website. By conquering this challenge, you're not just flaunting your tech skills; you're unlocking doors to potential job opportunities. It's the ultimate flex for tech enthusiasts—showcasing your abilities in AWS, web development, and more.
 Through AWS hand-on you get to know how a serveless architecture deployment looks. 
 
+## Serverless Architecture of the website
+
+
+
 ## AWS Services and its use for this project (high-level)
 
 ### ![Static Badge](https://img.shields.io/badge/AWS%20S3-grey?style=for-the-badge&logo=Amazon%20s3&logoColor=green)  
