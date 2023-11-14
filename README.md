@@ -13,7 +13,7 @@ Through AWS hand-on you get to know how a serveless architecture deployment look
 
 ## Serverless Architecture of the website
 
-
+![website-serverless-architecture](https://github.com/Parag-S-Salunkhe/serverless-AWS-deployment/assets/45193125/312bba38-3fb2-4be6-83e2-3b77061a34f3)
 
 ## AWS Services and its use for this project (high-level)
 
