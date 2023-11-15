@@ -209,8 +209,8 @@
 									
 									
 									
-									  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mzblwjbd" method="POST">
-										<fieldset id="fs-frm-inputs">
+									<form id="contact-form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mzblwjbd" method="POST">
+										<fieldset id="contact-form-inputs">
 										  <div class="form-group">
 											<label for="full-name">Full Name</label>
 											<input type="text" name="name" id="full-name" placeholder="Enter Your Full Name" required>
@@ -223,15 +223,16 @@
 									  
 										  <div class="form-group">
 											<label for="message">Message</label>
-											<textarea rows="5" name="message" id="message" placeholder="Enter Your Message" required></textarea>
+											<textarea rows="5" name="message" id="message" placeholder="Enter Your Message" maxlength="300" required></textarea>
+											<small class="char-limit">Maximum 300 characters</small>
 										  </div>
 									  
-										  <!-- <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"> -->
 										</fieldset>
 										<div class="form-group submit">
 										  <input type="submit" value="Submit">
 										</div>
 									  </form>
+									  
 									  
 
 								</div>
