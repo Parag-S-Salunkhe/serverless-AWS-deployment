@@ -53,6 +53,13 @@ After understanding all the above services, its underline working and the usage 
 
 ## Extras
 
+To further enhance the knowledge on more services you can use:
+1 ) AWS SNS, AWS SQS, AWS SES
+2 ) AWS CloudWatch
+3 ) API Gateway
+
+
+
 
 
 
