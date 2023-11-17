@@ -47,6 +47,16 @@ Create .github\workflows file in which you create a [yaml file](.github/workflow
 
 Go to Github repo >> settings >> in Security sections go to 'Secrets and Variables' >> Actions >> Set Respository Secrets 
 
+## How can you take it to the next level!
+
+After understanding all the above services, its underline working and the usage of policies, you can use Terraform to create this whole architecture using just the code hence implementing IaC (Infrastructure as Code). Your knowledge on policies for all the AWS services used will be tested while implementic IaC. There will be very minimal use of AWS UI and Click Ops. 
+
+## Extras
+
+
+
+
+
 
 
 
