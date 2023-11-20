@@ -2764,7 +2764,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #ffffff;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2785,7 +2785,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: rgb(222, 179, 240);
 				}
 
 		#header > nav {
@@ -3606,3 +3606,19 @@ input[type="submit"] {
 
 
 
+  .bounce {
+	display: inline-block;
+	animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+	  transform: translateY(0);
+	}
+	40% {
+	  transform: translateY(-10px);
+	}
+	60% {
+	  transform: translateY(-5px);
+	}
+  }
