@@ -59,6 +59,8 @@ To further enhance the knowledge on more services you can use:
 3 ) API Gateway
 
 
+Using these services you will still keep the architecture serverless. Using Aws services like SNS , SQS AND SES with CloudWatch helps monitor any metric you want, it will help fan out alerts , and it can also help trigger lambda function.
+
 
 
 
