@@ -54,13 +54,27 @@ After understanding all the above services, its underline working and the usage 
 ## Extras
 
 #### To further enhance the knowledge on more services you can use:
+
 1 ) AWS SNS, AWS SQS, AWS SES
+
 2 ) AWS CloudWatch
+
 3 ) API Gateway
+
+4) AWS Cognito
+
+5) AWS CodePipeline
+
+6) AWS CloudFormation
 
 
 Using these services you will still keep the architecture serverless. Using Aws services like SNS , SQS AND SES with CloudWatch helps monitor any metric you want, it will help fan out alerts , and it can also help trigger lambda function.
 
+AWS Cognito will add an extra layer of security by authenticating the user. 
+
+AWS CodePieline can be an alternative to GitHub actions for CI/CD integration.
+
+AWS CloudFormation can be used as an IaC instead of terraform.
 
 
 
