@@ -76,6 +76,8 @@ AWS CodePieline can be an alternative to GitHub actions for CI/CD integration.
 
 AWS CloudFormation can be used as an IaC instead of terraform.
 
+serverless architecture 
+
 
 
 
